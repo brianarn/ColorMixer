@@ -1,6 +1,5 @@
 dojo.provide("ColorSlider.init");
 
-dojo.addOnLoad(function(){
-	console.log("init()");
+dojo.ready(function(){
 	dojo.byId("demoContainer").innerHTML="<h1>Hello World</h1>";
 });
