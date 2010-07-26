@@ -1,5 +1,5 @@
 {
-	name: "ColorSlider",
+	name: "ColorMixer",
 
 	description: "A simple demo showing the use of a few Dijits and dojo.Color",
 
@@ -22,7 +22,7 @@
 	//the dojo version and possibly other deps in the future
 	dependencies: { 				/* optional */
 		"dojo": {
-			min: "1.4.0"
+			min: "1.5.0"
 		}
 	},
 

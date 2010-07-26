@@ -1,0 +1,47 @@
+.colorwrap {
+	/* Clears floats, I hear */
+	overflow: hidden;
+}
+
+.colorpane {
+	display: block;
+	float: left;
+	width: 206px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 5px;
+	font-size: 20px;
+	font-weight: bolder;
+	padding-top: 55px;
+	text-align: center;
+}
+
+.dijitColorPalette {
+	float: left;
+	margin: 5px;
+}
+
+#slider {
+	/*margin: 5px;
+	width: 433px;*/
+	width: 100%;
+}
+
+#controls {
+	margin-left: 223px;
+	width: 424px;
+	height: 127px;
+	text-align: center;
+}
+
+#leftControls, #rightControls {
+	width: 190px;
+	text-align: center;
+}
+
+#resultCol {
+	margin-left: 223px;
+	width: 424px;
+}
+
+/* vim: set sw=4 ts=4 noet: */

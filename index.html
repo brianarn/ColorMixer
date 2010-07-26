@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>ColorSlider Demo</title>
+		<title>ColorMixer Demo</title>
 		<!-- dojo reset -->
 		<link rel="stylesheet" href="../dojotoolkit/dojo/resources/dojo.css">
 
@@ -8,13 +8,44 @@
 		<link rel="stylesheet" href="../dojotoolkit/dijit/themes/claro/claro.css">
 
 		<!-- any custom css -->
-		<link rel="stylesheet" href="css/DemoExample.css">
+		<link rel="stylesheet" href="css/ColorMixer.css">
 
 	</head>
 
 	<body class="claro">
 		<div id="demoContainer">
-			<h3>Loading...</h3>
+			<h1>Color Mixer</h1>
+			<div id="instructions">
+				<p>Dojo has a nice convenient utility for mixing two colors, including balancing towards one of the colors. This little demo shows off the color picker as well as balancing.</p>
+				<p>How to work with it:</p>
+				<ul>
+					<li>Drag the slider left and right to adjust the balance of the mix.</li>
+					<li>Click on one of the top color blocks to display a color picker, which you can use to directly select a color.</li>
+					<li>Use either of the randomize buttons to set the color at random (duh)</li>
+				</ul>
+			</div>
+			<div id="loading">
+				<h3>Loading, please wait...</h3>
+			</div>
+			<div id="content" style="display: none;">
+				<div id="colors" class="colorwrap">
+					<span id="leftPal" class="colorpane"> </span>
+					<span id="leftCol" class="colorpane"> </span>
+					<span id="rightCol" class="colorpane"> </span>
+					<span id="rightPal" class="colorpane"> </span>
+				</div>
+				<div>
+					<div id="controls"></div>
+				</div>
+				<div class="colorwrap">
+					<span id="resultCol" class="colorpane"> </span>
+				</div>
+			</div>
+			<div>
+				<p>All content on this page copyright &copy; 2010 Brian Arnold, released under a BSD license, so, do whatever you want with it.</p>
+			</div>
+
+
 		</div>
 
 		<!--  LINK TO DOJO AT THE END OF THE BODY -->
