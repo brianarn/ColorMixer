@@ -128,7 +128,7 @@ dojo.ready(function(){
 		value: 0.5,
 		minimum: 0,
 		maximum: 1,
-		//intermediateChanges: true,
+		intermediateChanges: true,
 		onChange: mixCols
 	});
 	ft.containerNode.appendChild(slider.domNode);
